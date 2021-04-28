@@ -128,7 +128,7 @@ static void Print_Angle()
 
 int main(void)
 {
-	i2c_init();								// Initialize I2C	-> 400 kHZ
+	i2c_init();								// Initialize I2C	-> 400 kHz
 	USART_Init(9600);						// Initialize UART	-> 9600 Buadrate
 	USART_SendString("\n\r BNO055 IMU Test \n\r");
 	
